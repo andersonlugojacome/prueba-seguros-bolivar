@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.company.polizas.PolizasApiIntegrationTest" time="1.765" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.company.polizas.PolizasApiIntegrationTest" time="2.061" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -14,7 +14,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CO"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/25.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/andersonlugo/Library/CloudStorage/SynologyDrive-on-demand/works/GitHub/prueba-seguros-bolivar/target/surefire/surefirebooter-20260227142847178_3.jar /Users/andersonlugo/Library/CloudStorage/SynologyDrive-on-demand/works/GitHub/prueba-seguros-bolivar/target/surefire 2026-02-27T14-28-46_070-jvmRun1 surefire-20260227142847178_1tmp surefire_0-20260227142847178_2tmp"/>
+    <property name="sun.java.command" value="/Users/andersonlugo/Library/CloudStorage/SynologyDrive-on-demand/works/GitHub/prueba-seguros-bolivar/target/surefire/surefirebooter-20260227162529223_3.jar /Users/andersonlugo/Library/CloudStorage/SynologyDrive-on-demand/works/GitHub/prueba-seguros-bolivar/target/surefire 2026-02-27T16-25-29_195-jvmRun1 surefire-20260227162529223_1tmp surefire_0-20260227162529223_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/andersonlugo/Library/CloudStorage/SynologyDrive-on-demand/works/GitHub/prueba-seguros-bolivar/target/test-classes:/Users/andersonlugo/Library/CloudStorage/SynologyDrive-on-demand/works/GitHub/prueba-seguros-bolivar/target/classes:/tmp/m2repo/org/springframework/boot/spring-boot-starter-web/3.3.8/spring-boot-starter-web-3.3.8.jar:/tmp/m2repo/org/springframework/boot/spring-boot-starter/3.3.8/spring-boot-starter-3.3.8.jar:/tmp/m2repo/org/springframework/boot/spring-boot/3.3.8/spring-boot-3.3.8.jar:/tmp/m2repo/org/springframework/boot/spring-boot-autoconfigure/3.3.8/spring-boot-autoconfigure-3.3.8.jar:/tmp/m2repo/org/springframework/boot/spring-boot-starter-logging/3.3.8/spring-boot-starter-logging-3.3.8.jar:/tmp/m2repo/ch/qos/logback/logback-classic/1.5.16/logback-classic-1.5.16.jar:/tmp/m2repo/ch/qos/logback/logback-core/1.5.16/logback-core-1.5.16.jar:/tmp/m2repo/org/apache/logging/log4j/log4j-to-slf4j/2.23.1/log4j-to-slf4j-2.23.1.jar:/tmp/m2repo/org/apache/logging/log4j/log4j-api/2.23.1/log4j-api-2.23.1.jar:/tmp/m2repo/org/slf4j/jul-to-slf4j/2.0.16/jul-to-slf4j-2.0.16.jar:/tmp/m2repo/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar:/tmp/m2repo/org/yaml/snakeyaml/2.2/snakeyaml-2.2.jar:/tmp/m2repo/org/springframework/boot/spring-boot-starter-json/3.3.8/spring-boot-starter-json-3.3.8.jar:/tmp/m2repo/com/fasterxml/jackson/core/jackson-databind/2.17.3/jackson-databind-2.17.3.jar:/tmp/m2repo/com/fasterxml/jackson/core/jackson-annotations/2.17.3/jackson-annotations-2.17.3.jar:/tmp/m2repo/com/fasterxml/jackson/core/jackson-core/2.17.3/jackson-core-2.17.3.jar:/tmp/m2repo/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.17.3/jackson-datatype-jdk8-2.17.3.jar:/tmp/m2repo/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.17.3/jackson-datatype-jsr310-2.17.3.jar:/tmp/m2repo/com/fasterxml/jackson/module/jackson-module-parameter-names/2.17.3/jackson-module-parameter-names-2.17.3.jar:/tmp/m2repo/org/springframework/boot/spring-boot-starter-tomcat/3.3.8/spring-boot-starter-tomcat-3.3.8.jar:/tmp/m2repo/org/apache/tomcat/embed/tomcat-embed-core/10.1.34/tomcat-embed-core-10.1.34.jar:/tmp/m2repo/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.34/tomcat-embed-websocket-10.1.34.jar:/tmp/m2repo/org/springframework/spring-web/6.1.16/spring-web-6.1.16.jar:/tmp/m2repo/org/springframework/spring-beans/6.1.16/spring-beans-6.1.16.jar:/tmp/m2repo/io/micrometer/micrometer-observation/1.13.10/micrometer-observation-1.13.10.jar:/tmp/m2repo/io/micrometer/micrometer-commons/1.13.10/micrometer-commons-1.13.10.jar:/tmp/m2repo/org/springframework/spring-webmvc/6.1.16/spring-webmvc-6.1.16.jar:/tmp/m2repo/org/springframework/spring-aop/6.1.16/spring-aop-6.1.16.jar:/tmp/m2repo/org/springframework/spring-context/6.1.16/spring-context-6.1.16.jar:/tmp/m2repo/org/springframework/spring-expression/6.1.16/spring-expression-6.1.16.jar:/tmp/m2repo/org/springframework/boot/spring-boot-starter-validation/3.3.8/spring-boot-starter-validation-3.3.8.jar:/tmp/m2repo/org/apache/tomcat/embed/tomcat-embed-el/10.1.34/tomcat-embed-el-10.1.34.jar:/tmp/m2repo/org/hibernate/validator/hibernate-validator/8.0.2.Final/hibernate-validator-8.0.2.Final.jar:/tmp/m2repo/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar:/tmp/m2repo/org/jboss/logging/jboss-logging/3.5.3.Final/jboss-logging-3.5.3.Final.jar:/tmp/m2repo/com/fasterxml/classmate/1.7.0/classmate-1.7.0.jar:/tmp/m2repo/org/springframework/boot/spring-boot-starter-data-jpa/3.3.8/spring-boot-starter-data-jpa-3.3.8.jar:/tmp/m2repo/org/springframework/boot/spring-boot-starter-aop/3.3.8/spring-boot-starter-aop-3.3.8.jar:/tmp/m2repo/org/aspectj/aspectjweaver/1.9.22.1/aspectjweaver-1.9.22.1.jar:/tmp/m2repo/org/springframework/boot/spring-boot-starter-jdbc/3.3.8/spring-boot-starter-jdbc-3.3.8.jar:/tmp/m2repo/com/zaxxer/HikariCP/5.1.0/HikariCP-5.1.0.jar:/tmp/m2repo/org/springframework/spring-jdbc/6.1.16/spring-jdbc-6.1.16.jar:/tmp/m2repo/org/hibernate/orm/hibernate-core/6.5.3.Final/hibernate-core-6.5.3.Final.jar:/tmp/m2repo/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar:/tmp/m2repo/jakarta/transaction/jakarta.transaction-api/2.0.1/jakarta.transaction-api-2.0.1.jar:/tmp/m2repo/org/hibernate/common/hibernate-commons-annotations/6.0.6.Final/hibernate-commons-annotations-6.0.6.Final.jar:/tmp/m2repo/io/smallrye/jandex/3.1.2/jandex-3.1.2.jar:/tmp/m2repo/net/bytebuddy/byte-buddy/1.14.19/byte-buddy-1.14.19.jar:/tmp/m2repo/org/glassfish/jaxb/jaxb-runtime/4.0.5/jaxb-runtime-4.0.5.jar:/tmp/m2repo/org/glassfish/jaxb/jaxb-core/4.0.5/jaxb-core-4.0.5.jar:/tmp/m2repo/org/eclipse/angus/angus-activation/2.0.2/angus-activation-2.0.2.jar:/tmp/m2repo/org/glassfish/jaxb/txw2/4.0.5/txw2-4.0.5.jar:/tmp/m2repo/com/sun/istack/istack-commons-runtime/4.1.2/istack-commons-runtime-4.1.2.jar:/tmp/m2repo/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar:/tmp/m2repo/org/antlr/antlr4-runtime/4.13.0/antlr4-runtime-4.13.0.jar:/tmp/m2repo/org/springframework/data/spring-data-jpa/3.3.8/spring-data-jpa-3.3.8.jar:/tmp/m2repo/org/springframework/data/spring-data-commons/3.3.8/spring-data-commons-3.3.8.jar:/tmp/m2repo/org/springframework/spring-orm/6.1.16/spring-orm-6.1.16.jar:/tmp/m2repo/org/springframework/spring-tx/6.1.16/spring-tx-6.1.16.jar:/tmp/m2repo/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/tmp/m2repo/org/springframework/spring-aspects/6.1.16/spring-aspects-6.1.16.jar:/tmp/m2repo/com/h2database/h2/2.2.224/h2-2.2.224.jar:/tmp/m2repo/org/springframework/boot/spring-boot-starter-test/3.3.8/spring-boot-starter-test-3.3.8.jar:/tmp/m2repo/org/springframework/boot/spring-boot-test/3.3.8/spring-boot-test-3.3.8.jar:/tmp/m2repo/org/springframework/boot/spring-boot-test-autoconfigure/3.3.8/spring-boot-test-autoconfigure-3.3.8.jar:/tmp/m2repo/com/jayway/jsonpath/json-path/2.9.0/json-path-2.9.0.jar:/tmp/m2repo/jakarta/xml/bind/jakarta.xml.bind-api/4.0.2/jakarta.xml.bind-api-4.0.2.jar:/tmp/m2repo/jakarta/activation/jakarta.activation-api/2.1.3/jakarta.activation-api-2.1.3.jar:/tmp/m2repo/net/minidev/json-smart/2.5.1/json-smart-2.5.1.jar:/tmp/m2repo/net/minidev/accessors-smart/2.5.1/accessors-smart-2.5.1.jar:/tmp/m2repo/org/ow2/asm/asm/9.6/asm-9.6.jar:/tmp/m2repo/org/assertj/assertj-core/3.25.3/assertj-core-3.25.3.jar:/tmp/m2repo/org/awaitility/awaitility/4.2.2/awaitility-4.2.2.jar:/tmp/m2repo/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/tmp/m2repo/org/junit/jupiter/junit-jupiter/5.10.5/junit-jupiter-5.10.5.jar:/tmp/m2repo/org/junit/jupiter/junit-jupiter-api/5.10.5/junit-jupiter-api-5.10.5.jar:/tmp/m2repo/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/tmp/m2repo/org/junit/platform/junit-platform-commons/1.10.5/junit-platform-commons-1.10.5.jar:/tmp/m2repo/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/tmp/m2repo/org/junit/jupiter/junit-jupiter-params/5.10.5/junit-jupiter-params-5.10.5.jar:/tmp/m2repo/org/junit/jupiter/junit-jupiter-engine/5.10.5/junit-jupiter-engine-5.10.5.jar:/tmp/m2repo/org/junit/platform/junit-platform-engine/1.10.5/junit-platform-engine-1.10.5.jar:/tmp/m2repo/org/mockito/mockito-core/5.11.0/mockito-core-5.11.0.jar:/tmp/m2repo/net/bytebuddy/byte-buddy-agent/1.14.19/byte-buddy-agent-1.14.19.jar:/tmp/m2repo/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/tmp/m2repo/org/mockito/mockito-junit-jupiter/5.11.0/mockito-junit-jupiter-5.11.0.jar:/tmp/m2repo/org/skyscreamer/jsonassert/1.5.3/jsonassert-1.5.3.jar:/tmp/m2repo/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/tmp/m2repo/org/springframework/spring-core/6.1.16/spring-core-6.1.16.jar:/tmp/m2repo/org/springframework/spring-jcl/6.1.16/spring-jcl-6.1.16.jar:/tmp/m2repo/org/springframework/spring-test/6.1.16/spring-test-6.1.16.jar:/tmp/m2repo/org/xmlunit/xmlunit-core/2.9.1/xmlunit-core-2.9.1.jar:"/>
@@ -33,7 +33,7 @@
     <property name="FILE_LOG_CHARSET" value="UTF-8"/>
     <property name="java.awt.headless" value="true"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/andersonlugo/Library/CloudStorage/SynologyDrive-on-demand/works/GitHub/prueba-seguros-bolivar/target/surefire/surefirebooter-20260227142847178_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/andersonlugo/Library/CloudStorage/SynologyDrive-on-demand/works/GitHub/prueba-seguros-bolivar/target/surefire/surefirebooter-20260227162529223_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="25.0.2"/>
@@ -53,7 +53,7 @@
     <property name="user.dir" value="/Users/andersonlugo/Library/CloudStorage/SynologyDrive-on-demand/works/GitHub/prueba-seguros-bolivar"/>
     <property name="os.arch" value="aarch64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="PID" value="29564"/>
+    <property name="PID" value="33318"/>
     <property name="CONSOLE_LOG_CHARSET" value="UTF-8"/>
     <property name="native.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/andersonlugo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
@@ -68,9 +68,9 @@
     <property name="java.class.version" value="69.0"/>
     <property name="LOGGED_APPLICATION_NAME" value="[polizas-api] "/>
   </properties>
-  <testcase name="renovarPolizaCanceladaRetorna400" classname="com.company.polizas.PolizasApiIntegrationTest" time="0.257">
-    <system-out><![CDATA[14:28:47.418 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.company.polizas.PolizasApiIntegrationTest]: PolizasApiIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-14:28:47.453 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.company.polizas.PolizasApplication for test class com.company.polizas.PolizasApiIntegrationTest
+  <testcase name="renovarPolizaCanceladaRetorna400" classname="com.company.polizas.PolizasApiIntegrationTest" time="0.284">
+    <system-out><![CDATA[16:25:29.471 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.company.polizas.PolizasApiIntegrationTest]: PolizasApiIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:25:29.510 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.company.polizas.PolizasApplication for test class com.company.polizas.PolizasApiIntegrationTest
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -81,26 +81,26 @@
 
  :: Spring Boot ::                (v3.3.8)
 
-2026-02-27T14:28:47.576-05:00  INFO 29564 --- [polizas-api] [           main] c.c.polizas.PolizasApiIntegrationTest    : Starting PolizasApiIntegrationTest using Java 25.0.2 with PID 29564 (started by andersonlugo in /Users/andersonlugo/Library/CloudStorage/SynologyDrive-on-demand/works/GitHub/prueba-seguros-bolivar)
-2026-02-27T14:28:47.577-05:00  INFO 29564 --- [polizas-api] [           main] c.c.polizas.PolizasApiIntegrationTest    : No active profile set, falling back to 1 default profile: "default"
-2026-02-27T14:28:47.789-05:00  INFO 29564 --- [polizas-api] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-02-27T14:28:47.812-05:00  INFO 29564 --- [polizas-api] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 2 JPA repository interfaces.
-2026-02-27T14:28:47.945-05:00  INFO 29564 --- [polizas-api] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-02-27T14:28:47.962-05:00  INFO 29564 --- [polizas-api] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
-2026-02-27T14:28:47.970-05:00  INFO 29564 --- [polizas-api] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2026-02-27T14:28:48.064-05:00  INFO 29564 --- [polizas-api] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-02-27T14:28:48.072-05:00  INFO 29564 --- [polizas-api] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-02-27T14:28:48.124-05:00  INFO 29564 --- [polizas-api] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:polizasdb user=SA
-2026-02-27T14:28:48.125-05:00  INFO 29564 --- [polizas-api] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-02-27T14:28:48.392-05:00  INFO 29564 --- [polizas-api] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-02-27T14:28:48.405-05:00  INFO 29564 --- [polizas-api] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-02-27T14:28:48.569-05:00  WARN 29564 --- [polizas-api] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-02-27T14:28:48.673-05:00  INFO 29564 --- [polizas-api] [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:polizasdb'
-2026-02-27T14:28:48.696-05:00  INFO 29564 --- [polizas-api] [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2026-02-27T14:28:48.696-05:00  INFO 29564 --- [polizas-api] [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2026-02-27T14:28:48.697-05:00  INFO 29564 --- [polizas-api] [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
-2026-02-27T14:28:48.706-05:00  INFO 29564 --- [polizas-api] [           main] c.c.polizas.PolizasApiIntegrationTest    : Started PolizasApiIntegrationTest in 1.216 seconds (process running for 1.494)
-2026-02-27T14:28:49.029-05:00  INFO 29564 --- [polizas-api] [           main] c.c.polizas.config.CorrelationIdFilter   : Request POST /polizas/3/renovar correlationId=eca103de-200e-44b8-aee6-5f6a9f1b557d
+2026-02-27T16:25:29.652-05:00  INFO 33318 --- [polizas-api] [           main] c.c.polizas.PolizasApiIntegrationTest    : Starting PolizasApiIntegrationTest using Java 25.0.2 with PID 33318 (started by andersonlugo in /Users/andersonlugo/Library/CloudStorage/SynologyDrive-on-demand/works/GitHub/prueba-seguros-bolivar)
+2026-02-27T16:25:29.652-05:00  INFO 33318 --- [polizas-api] [           main] c.c.polizas.PolizasApiIntegrationTest    : No active profile set, falling back to 1 default profile: "default"
+2026-02-27T16:25:29.882-05:00  INFO 33318 --- [polizas-api] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-27T16:25:29.900-05:00  INFO 33318 --- [polizas-api] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 2 JPA repository interfaces.
+2026-02-27T16:25:30.050-05:00  INFO 33318 --- [polizas-api] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-27T16:25:30.077-05:00  INFO 33318 --- [polizas-api] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2026-02-27T16:25:30.090-05:00  INFO 33318 --- [polizas-api] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-02-27T16:25:30.216-05:00  INFO 33318 --- [polizas-api] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-27T16:25:30.227-05:00  INFO 33318 --- [polizas-api] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-02-27T16:25:30.296-05:00  INFO 33318 --- [polizas-api] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:polizasdb user=SA
+2026-02-27T16:25:30.297-05:00  INFO 33318 --- [polizas-api] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-02-27T16:25:30.674-05:00  INFO 33318 --- [polizas-api] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-27T16:25:30.690-05:00  INFO 33318 --- [polizas-api] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-27T16:25:30.868-05:00  WARN 33318 --- [polizas-api] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-27T16:25:30.976-05:00  INFO 33318 --- [polizas-api] [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:polizasdb'
+2026-02-27T16:25:30.992-05:00  INFO 33318 --- [polizas-api] [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-02-27T16:25:30.992-05:00  INFO 33318 --- [polizas-api] [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-02-27T16:25:30.992-05:00  INFO 33318 --- [polizas-api] [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2026-02-27T16:25:30.999-05:00  INFO 33318 --- [polizas-api] [           main] c.c.polizas.PolizasApiIntegrationTest    : Started PolizasApiIntegrationTest in 1.443 seconds (process running for 1.746)
+2026-02-27T16:25:31.348-05:00  INFO 33318 --- [polizas-api] [           main] c.c.polizas.config.CorrelationIdFilter   : Request POST /polizas/3/renovar correlationId=e1c2739e-9348-45b2-857c-b1f3200c1eb3
 ]]></system-out>
     <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (/tmp/m2repo/net/bytebuddy/byte-buddy-agent/1.14.19/byte-buddy-agent-1.14.19.jar)
 WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
@@ -108,23 +108,23 @@ WARNING: If a serviceability tool is not in use, please run with -Djdk.instrumen
 WARNING: Dynamic loading of agents will be disallowed by default in a future release
 ]]></system-err>
   </testcase>
-  <testcase name="requestSinApiKeyRetorna401" classname="com.company.polizas.PolizasApiIntegrationTest" time="0.004">
-    <system-out><![CDATA[2026-02-27T14:28:49.078-05:00  INFO 29564 --- [polizas-api] [           main] c.c.polizas.config.CorrelationIdFilter   : Request GET /polizas correlationId=3e97ba7c-6cb5-49f5-980c-e645a972f24b
+  <testcase name="requestSinApiKeyRetorna401" classname="com.company.polizas.PolizasApiIntegrationTest" time="0.005">
+    <system-out><![CDATA[2026-02-27T16:25:31.404-05:00  INFO 33318 --- [polizas-api] [           main] c.c.polizas.config.CorrelationIdFilter   : Request GET /polizas correlationId=c49c5dce-b9ae-47cb-ad06-4abcd08224dc
 ]]></system-out>
   </testcase>
-  <testcase name="getPolizasFiltraCorrectamente" classname="com.company.polizas.PolizasApiIntegrationTest" time="0.018">
-    <system-out><![CDATA[2026-02-27T14:28:49.083-05:00  INFO 29564 --- [polizas-api] [           main] c.c.polizas.config.CorrelationIdFilter   : Request GET /polizas correlationId=1d0ee899-db54-4079-9759-e55734470a64
+  <testcase name="getPolizasFiltraCorrectamente" classname="com.company.polizas.PolizasApiIntegrationTest" time="0.028">
+    <system-out><![CDATA[2026-02-27T16:25:31.411-05:00  INFO 33318 --- [polizas-api] [           main] c.c.polizas.config.CorrelationIdFilter   : Request GET /polizas correlationId=bd8033b5-4d04-4c29-a6bd-20408336396d
 ]]></system-out>
   </testcase>
-  <testcase name="agregarRiesgoAPolizaIndividualRetorna400" classname="com.company.polizas.PolizasApiIntegrationTest" time="0.025">
-    <system-out><![CDATA[2026-02-27T14:28:49.103-05:00  INFO 29564 --- [polizas-api] [           main] c.c.polizas.config.CorrelationIdFilter   : Request POST /polizas/1/riesgos correlationId=aaeed2a6-c37b-40d1-94ee-e09b3d6e2c9a
+  <testcase name="agregarRiesgoAPolizaIndividualRetorna400" classname="com.company.polizas.PolizasApiIntegrationTest" time="0.027">
+    <system-out><![CDATA[2026-02-27T16:25:31.440-05:00  INFO 33318 --- [polizas-api] [           main] c.c.polizas.config.CorrelationIdFilter   : Request POST /polizas/1/riesgos correlationId=a6402d5a-d11e-47f4-a238-d95f28592588
 ]]></system-out>
   </testcase>
-  <testcase name="cancelarPolizaCancelaTodosLosRiesgos" classname="com.company.polizas.PolizasApiIntegrationTest" time="0.016">
-    <system-out><![CDATA[2026-02-27T14:28:49.129-05:00  INFO 29564 --- [polizas-api] [           main] c.c.polizas.config.CorrelationIdFilter   : Request POST /polizas/2/cancelar correlationId=752b0084-cc88-48f6-a3a6-f45707508d51
-2026-02-27T14:28:49.131-05:00  INFO 29564 --- [polizas-api] [           main] c.c.polizas.service.CoreMockService      : Se intento enviar al CORE: evento=ACTUALIZACION, polizaId=2
-2026-02-27T14:28:49.131-05:00  INFO 29564 --- [polizas-api] [           main] c.c.polizas.service.CoreMockService      : [CORE-MOCK] Evento recibido: evento=ACTUALIZACION, polizaId=2
-2026-02-27T14:28:49.138-05:00  INFO 29564 --- [polizas-api] [           main] c.c.polizas.config.CorrelationIdFilter   : Request GET /polizas/2/riesgos correlationId=e48fa223-2032-425a-bd57-228a80908f84
+  <testcase name="cancelarPolizaCancelaTodosLosRiesgos" classname="com.company.polizas.PolizasApiIntegrationTest" time="0.017">
+    <system-out><![CDATA[2026-02-27T16:25:31.468-05:00  INFO 33318 --- [polizas-api] [           main] c.c.polizas.config.CorrelationIdFilter   : Request POST /polizas/2/cancelar correlationId=f362f67c-3697-4ea9-907a-c4d9c50d4ad1
+2026-02-27T16:25:31.470-05:00  INFO 33318 --- [polizas-api] [           main] c.c.polizas.service.CoreMockService      : Se intento enviar al CORE: evento=ACTUALIZACION, polizaId=2
+2026-02-27T16:25:31.470-05:00  INFO 33318 --- [polizas-api] [           main] c.c.polizas.service.CoreMockService      : [CORE-MOCK] Evento recibido: evento=ACTUALIZACION, polizaId=2
+2026-02-27T16:25:31.478-05:00  INFO 33318 --- [polizas-api] [           main] c.c.polizas.config.CorrelationIdFilter   : Request GET /polizas/2/riesgos correlationId=e92e9e50-5ac5-4219-9e67-58cf00e16103
 ]]></system-out>
   </testcase>
 </testsuite>

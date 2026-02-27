@@ -124,3 +124,25 @@ mvn test
 - Se uso arquitectura por capas: `controller`, `service`, `repository`.
 - Correlation ID por request: si no llega `x-correlation-id`, se genera UUID y se devuelve en response header.
 - El envio al CORE se modela como intento interno registrado por `CoreMockService`, y expuesto en endpoint `/core-mock/evento`.
+
+### Cliente React de prueba
+- Se incluyo un cliente simple en `docs/react-test-client/App.tsx`.
+- Instrucciones de uso: `docs/react-test-client/README.md`.
+
+### UI React integrada en /ui
+Proyecto React + Vite + TypeScript listo dentro de `ui/`.
+
+Backend:
+```bash
+mvn spring-boot:run
+```
+
+Frontend (nueva terminal):
+```bash
+cd ui
+npm install
+npm run dev
+```
+
+Abrir en navegador:
+- `http://localhost:5173`

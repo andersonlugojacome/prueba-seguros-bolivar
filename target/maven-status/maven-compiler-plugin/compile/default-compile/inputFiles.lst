@@ -2,6 +2,7 @@
 /Users/andersonlugo/Library/CloudStorage/SynologyDrive-on-demand/works/GitHub/prueba-seguros-bolivar/src/main/java/com/company/polizas/config/ApiKeyFilter.java
 /Users/andersonlugo/Library/CloudStorage/SynologyDrive-on-demand/works/GitHub/prueba-seguros-bolivar/src/main/java/com/company/polizas/config/CorrelationIdFilter.java
 /Users/andersonlugo/Library/CloudStorage/SynologyDrive-on-demand/works/GitHub/prueba-seguros-bolivar/src/main/java/com/company/polizas/config/DataInitializer.java
+/Users/andersonlugo/Library/CloudStorage/SynologyDrive-on-demand/works/GitHub/prueba-seguros-bolivar/src/main/java/com/company/polizas/config/WebCorsConfig.java
 /Users/andersonlugo/Library/CloudStorage/SynologyDrive-on-demand/works/GitHub/prueba-seguros-bolivar/src/main/java/com/company/polizas/controller/CoreMockController.java
 /Users/andersonlugo/Library/CloudStorage/SynologyDrive-on-demand/works/GitHub/prueba-seguros-bolivar/src/main/java/com/company/polizas/controller/PolizaController.java
 /Users/andersonlugo/Library/CloudStorage/SynologyDrive-on-demand/works/GitHub/prueba-seguros-bolivar/src/main/java/com/company/polizas/controller/RiesgoController.java
