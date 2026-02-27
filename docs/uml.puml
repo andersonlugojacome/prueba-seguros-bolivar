@@ -1,0 +1,88 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+package "domain" {
+  class Poliza {
+    +id: Long
+    +tipo: TipoPoliza
+    +estado: EstadoPoliza
+    +vigenciaMeses: int
+    +fechaInicio: LocalDate
+    +fechaFin: LocalDate
+    +canonMensual: BigDecimal
+    +prima: BigDecimal
+  }
+
+  class Riesgo {
+    +id: Long
+    +estado: EstadoRiesgo
+    +descripcion: String
+  }
+
+  Poliza "1" -- "0..*" Riesgo : contiene
+}
+
+package "controller" {
+  class PolizaController
+  class RiesgoController
+  class CoreMockController
+}
+
+package "service" {
+  class PolizaService
+  class RiesgoService
+  class CoreMockService
+}
+
+package "repository" {
+  interface PolizaRepository
+  interface RiesgoRepository
+}
+
+package "config/exception" {
+  class ApiKeyFilter
+  class CorrelationIdFilter
+  class GlobalExceptionHandler
+}
+
+PolizaController --> PolizaService
+RiesgoController --> RiesgoService
+CoreMockController --> CoreMockService
+
+PolizaService --> PolizaRepository
+PolizaService --> RiesgoRepository
+PolizaService --> CoreMockService
+
+RiesgoService --> RiesgoRepository
+RiesgoService --> CoreMockService
+
+ApiKeyFilter ..> PolizaController : protege
+CorrelationIdFilter ..> PolizaController : traza
+GlobalExceptionHandler ..> PolizaController : errores
+
+newpage
+
+title Secuencia: Cancelar Poliza
+
+actor Cliente
+participant CorrelationIdFilter as CID
+participant ApiKeyFilter as AK
+participant PolizaController as PC
+participant PolizaService as PS
+participant PolizaRepository as PR
+participant CoreMockService as CMS
+
+Cliente -> CID: POST /polizas/{id}/cancelar
+CID -> AK: forward request
+AK -> PC: request validada
+PC -> PS: cancelarPoliza(id)
+PS -> PR: findById(id)
+PR --> PS: Poliza
+PS -> PS: set estado poliza=CANCELADA\nset riesgos=CANCELADO
+PS -> PR: save(poliza)
+PS -> CMS: intentarNotificarCore("ACTUALIZACION", polizaId)
+CMS --> PS: log intento
+PS --> PC: PolizaResponse
+PC --> Cliente: 200 OK
+
+@enduml
