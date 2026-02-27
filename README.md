@@ -146,3 +146,47 @@ npm run dev
 
 Abrir en navegador:
 - `http://localhost:5173`
+
+### Documentacion de la IU (React)
+La IU de pruebas permite consumir los endpoints del backend sin Postman/curl.
+
+Ubicacion:
+- `ui/`
+
+Campos de la pantalla:
+- `Base URL`: URL del backend (default `http://localhost:8080`).
+- `API Key`: token requerido por el backend (default `123456`).
+- `Method`: `GET` o `POST`.
+- `Endpoint`: ruta relativa, por ejemplo `/polizas?tipo=COLECTIVA&estado=VIGENTE`.
+- `Body JSON`: payload para `POST`.
+
+Flujo recomendado de prueba:
+1. Levantar backend en terminal 1:
+   ```bash
+   mvn spring-boot:run
+   ```
+2. Levantar frontend en terminal 2:
+   ```bash
+   cd ui
+   npm install
+   npm run dev
+   ```
+3. Abrir la URL que muestra Vite (ej: `http://localhost:5173`).
+4. Ejecutar requests desde el boton `Ejecutar`.
+
+Pruebas sugeridas desde la IU:
+- `GET /polizas?tipo=COLECTIVA&estado=VIGENTE` -> `200`.
+- `POST /polizas/3/renovar` -> `400` (poliza cancelada).
+- `POST /polizas/1/riesgos` con body `{"descripcion":"test"}` -> `400` (individual).
+- `GET /polizas` con api key vacia -> `401`.
+
+Notas tecnicas de integracion UI/API:
+- Se configuro CORS para `http://localhost:*` y `http://127.0.0.1:*`.
+- Preflight `OPTIONS` permitido en el filtro de API key.
+
+Solucion de problemas:
+- Si aparece `TypeError: Load failed`:
+  - Verifica backend arriba en `http://localhost:8080`.
+  - Revisa que `Base URL` en IU sea correcta.
+  - Confirma que la API key sea `123456`.
+  - Reinicia backend y frontend para recargar configuracion CORS.
