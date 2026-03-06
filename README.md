@@ -3,13 +3,59 @@
 
 ## Implementacion Entregada - API de Gestion de Polizas
 
-### Stack tecnico
-- Java 17
-- Spring Boot 3.x
-- Maven
-- Spring Data JPA + H2 en memoria
-- Spring Validation
-- Spring Boot Test + MockMvc
+### Tech Stack
+| Capa | Tecnologia | Uso |
+| --- | --- | --- |
+| Backend | Java 17 | Lenguaje principal del backend |
+| Backend | Spring Boot 3.x | Framework para exponer la API REST |
+| Backend | Maven | Gestion de dependencias y build |
+| Backend | Spring Data JPA | Persistencia y acceso a datos |
+| Backend | H2 (en memoria) | Base de datos embebida para desarrollo/pruebas |
+| Backend | Spring Validation | Validacion de entradas de la API |
+| Testing | Spring Boot Test + MockMvc | Pruebas automatizadas de integracion |
+| Frontend | React | Interfaz web para probar endpoints |
+| Frontend | Vite | Bundler y servidor de desarrollo |
+| Frontend | TypeScript | Tipado estatico en la UI |
+
+### Project Structure
+```text
+.
+├── pom.xml
+├── README.md
+├── src
+│   ├── main
+│   │   ├── java/com/company/polizas
+│   │   │   ├── config
+│   │   │   ├── controller
+│   │   │   ├── domain
+│   │   │   ├── dto
+│   │   │   ├── exception
+│   │   │   ├── repository
+│   │   │   ├── service
+│   │   │   └── PolizasApplication.java
+│   │   └── resources/application.yml
+│   └── test/java/com/company/polizas/PolizasApiIntegrationTest.java
+├── ui
+│   ├── src
+│   ├── package.json
+│   ├── vite.config.ts
+│   └── README.md
+└── docs
+    ├── react-test-client
+    └── uml.md
+```
+
+### Sprint 1 Completion Status
+| Item | Estado |
+| --- | --- |
+| Setup del proyecto (Spring Boot + Maven) | Completado |
+| Seguridad por API Key (`x-api-key`) | Completado |
+| Endpoints base de polizas y riesgos | Completado |
+| Reglas de negocio solicitadas | Completado |
+| Integracion con CORE mock | Completado |
+| Datos semilla (`CommandLineRunner`) | Completado |
+| Pruebas de integracion minimas | Completado |
+| Cliente UI React de prueba | Completado |
 
 ### Requisitos
 - JDK 17+
