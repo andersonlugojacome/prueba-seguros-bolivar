@@ -166,6 +166,22 @@ Casos minimos:
 mvn test
 ```
 
+Resultado registrado:
+```text
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.921 s -- in com.company.polizas.PolizasApiIntegrationTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.305 s
+[INFO] Finished at: 2026-03-06T07:59:06-05:00
+[INFO] ------------------------------------------------------------------------
+```
+
 ### Notas de decisiones
 - Se uso arquitectura por capas: `controller`, `service`, `repository`.
 - Correlation ID por request: si no llega `x-correlation-id`, se genera UUID y se devuelve en response header.
