@@ -62,6 +62,7 @@ public class DataInitializer implements CommandLineRunner {
         riesgoC2.setEstado(EstadoRiesgo.ACTIVO);
         riesgoC2.setDescripcion("Riesgo colectivo B");
         colectiva.setRiesgos(new ArrayList<>(List.of(riesgoC1, riesgoC2)));
+        
 
         Poliza cancelada = new Poliza();
         cancelada.setTipo(TipoPoliza.INDIVIDUAL);
